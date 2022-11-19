@@ -28,8 +28,8 @@ function openModal(event) {
   }
 
 var lightbox  = new SimpleLightbox('.gallery a', {
-	captionDelay: 250, 
-    captionData:'alt',
-    captionPosition: 'bottom'
+    captions: true,
+    captionsData: 'alt',
+    captionDelay: 250,
 })
 
